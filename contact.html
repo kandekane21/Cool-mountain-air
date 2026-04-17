@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Cool Mountain Air HVAC, LLC</title>
+    <meta
+      name="description"
+      content="Contact Cool Mountain Air HVAC, LLC in Morgantown, West Virginia to ask about heating, cooling, and HVAC service."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="topbar">
+        <a class="brand" href="index.html">
+          <img class="brand-logo" src="cool-mountain-air-logo.jpg" alt="Cool Mountain Air HVAC, LLC logo" />
+          <span>
+            <strong>Cool Mountain Air HVAC, LLC</strong>
+            <small>Mountain air comfort in Morgantown, WV</small>
+          </span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          Menu
+        </button>
+        <nav id="site-nav" class="site-nav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a class="active" href="contact.html">Contact</a>
+        </nav>
+      </header>
+
+      <main class="page-main">
+        <section class="page-hero">
+          <p class="eyebrow">Contact Us</p>
+          <h1>Reach Out for HVAC Service Under West Virginia Skies.</h1>
+          <p class="lead">
+            Tell us a little about your heating, cooling, or indoor comfort needs and we'll be in
+            touch.
+          </p>
+        </section>
+
+        <section class="contact-layout">
+          <div class="contact-card">
+            <h2>Send a Message</h2>
+            <form class="contact-form" data-contact-form>
+              <label>
+                Full name
+                <input type="text" name="name" placeholder="Your name" required />
+              </label>
+              <label>
+                Email address
+                <input type="email" name="email" placeholder="you@example.com" required />
+              </label>
+              <label>
+                Phone number
+                <input type="tel" name="phone" placeholder="Best number to reach you" />
+              </label>
+              <label>
+                How can we help?
+                <textarea
+                  name="message"
+                  rows="6"
+                  placeholder="Tell us about your project or service request"
+                  required
+                ></textarea>
+              </label>
+              <button class="button button-primary" type="submit">Submit Request</button>
+              <p class="form-note" data-form-note aria-live="polite"></p>
+            </form>
+          </div>
+
+          <aside class="contact-sidebar">
+            <div class="contact-info-panel">
+              <h2>Service Area</h2>
+              <p>Morgantown, West Virginia and surrounding communities.</p>
+            </div>
+            <div class="contact-info-panel">
+              <h2>Company Focus</h2>
+              <p>Residential and light commercial heating, cooling, and indoor air comfort.</p>
+            </div>
+            <div class="contact-info-panel">
+              <h2>Brand-Ready Next Step</h2>
+              <p>
+                This page is ready for your phone number, email address, hours, and social links
+                whenever you want to add them.
+              </p>
+            </div>
+          </aside>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div>
+          <strong>Cool Mountain Air HVAC, LLC</strong>
+          <p>HVAC service based in Morgantown, West Virginia.</p>
+        </div>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
